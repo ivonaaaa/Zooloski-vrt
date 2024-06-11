@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZAPOSLENIK_KARTA" directorySegmentName="seg_0" id="52C737B1-A382-7C8D-5463-3515663756BF">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:47:25 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>3B00CA3A-F696-CED3-6373-0A778C76A1A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD5E2705-4EA6-39DB-4C1A-10724BEFBE48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9229A5D0-E753-3EAA-3064-B3B1493C4316</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

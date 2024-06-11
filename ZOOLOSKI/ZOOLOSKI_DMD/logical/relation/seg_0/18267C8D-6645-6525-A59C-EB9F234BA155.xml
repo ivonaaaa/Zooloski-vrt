@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROSTOR_ORGANIZACIJA" directorySegmentName="seg_0" id="18267C8D-6645-6525-A59C-EB9F234BA155">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:48:38 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>DA2B46DD-CE6C-1235-522A-C4D9DF20CC8C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3DBEFD83-CCBE-DF0E-0EEA-CE457674977D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6315D61-A376-58B2-6B15-B20E456F66AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

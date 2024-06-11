@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DC9345D-F73B-12BB-C310-8680F86A2D60" name="PODVRSTA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:42:16 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Podvrsta" id="38929BCA-87F0-58F8-01DA-FEE9F38C17A8">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:42:24 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="276FBBC5-BA36-EEBE-FCED-ED00AB911529">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:42:39 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Vrsta" id="551CB1EA-821E-4574-8BCB-3958D78FD7AB">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:51:55 UTC</createdTime>
+<generatorID>4BB65AE7-EA9F-64C3-3EB2-291196D3CAC5</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>E81B6FB3-BD1D-5DC2-0EF4-904D85628482</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AED2A62-3209-C6EB-8557-891C5D93A843" name="PODVRSTA PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:42:37 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38929BCA-87F0-58F8-01DA-FEE9F38C17A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

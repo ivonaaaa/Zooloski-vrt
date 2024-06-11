@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TERMIN_ORGANIZACIJA" directorySegmentName="seg_0" id="579D6E3C-9FF6-D6B0-4BEC-EFD1AE126817">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:48:55 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>19A73174-3897-A8F9-E661-1691AA174257</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>888BBC30-3E43-2087-FECB-231EF35A11BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6315D61-A376-58B2-6B15-B20E456F66AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAA82473-2699-50C4-5C9B-C94D8FB35ABD" name="ZIVOTINJA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>D642D627-AA3F-1FD1-9147-F83D56A5FC5D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zivotinja" id="C50C3F96-3A98-BF9F-B513-90F7530CB073">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>CF6AFA8B-8F31-B630-B029-597A8A12697C</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZIVOTINJA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZIVOTINJA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="2883C42E-4897-B1D4-8A16-979A43F763F8">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>A3A72F1A-92FC-0E60-EF1B-954946938F00</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sifra" id="AC046193-FAE0-118F-C3A3-94F1D73FE2AA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>291E1677-8614-320B-11D5-9E30146E54D3</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PODVRSTA_ID_Podvrsta" id="EE0353A3-51B0-3E2D-62F2-ED4D42F65E81">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>455BFB0A-2F45-40D6-B290-ED1B12245C00</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDFCAEE1-8DC7-F93A-6BA9-E51D25A20A23" referredColumn="DDE84AFE-EF9C-2A8E-5796-AF614CDB1AAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32CE94A1-B7A5-4708-0AA8-A2A4483388D9" name="ZIVOTINJA_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>11E5D01B-5D37-30B8-8FF7-517CCE1663EE</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C50C3F96-3A98-BF9F-B513-90F7530CB073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34895A58-5AE7-B187-1F6E-E81C3197339F" name="ZIVOTINJA_Sifra_UN">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>19741F09-E2A8-E876-1DE8-994E9D2DC5A0</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC046193-FAE0-118F-C3A3-94F1D73FE2AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C8E8127-3980-8DE3-0D73-6D5948EB206B" name="ZIVOTINJA_PODVRSTA_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>8F8318B5-A39E-3783-56C9-CFA8858FACB0</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE0353A3-51B0-3E2D-62F2-ED4D42F65E81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

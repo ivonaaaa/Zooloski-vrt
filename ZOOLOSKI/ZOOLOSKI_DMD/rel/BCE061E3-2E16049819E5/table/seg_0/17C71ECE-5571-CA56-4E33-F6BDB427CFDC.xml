@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17C71ECE-5571-CA56-4E33-F6BDB427CFDC" name="VRSTA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>46CADB84-60A4-5A16-2C27-84266332EC09</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Vrsta" id="43798EAB-1157-E6A3-67E2-677883CB7AF6">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>E81B6FB3-BD1D-5DC2-0EF4-904D85628482</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>VRSTA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>VRSTA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="B30A7028-C00F-3BA9-B4AB-15B8C60258EC">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>2310C5C8-86E7-AAE5-25C0-2CC0E62CDD8A</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91E450CA-8468-05C9-5B74-53697A2C47C1" name="VRSTA_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>537EA729-19D7-CA6B-66CB-DA0B8FD24A8D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43798EAB-1157-E6A3-67E2-677883CB7AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

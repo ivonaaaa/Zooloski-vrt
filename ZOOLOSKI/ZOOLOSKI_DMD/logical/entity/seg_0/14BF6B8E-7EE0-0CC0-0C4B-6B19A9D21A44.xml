@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14BF6B8E-7EE0-0CC0-0C4B-6B19A9D21A44" name="BORAVISTE">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:40:04 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Boraviste" id="808318C5-DDB6-DA8D-5551-401E4A09C28E">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:40:10 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Od" id="3DC1856F-5775-4300-5059-5FFBDE126DC9">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:40:25 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Do" id="2077979F-07C2-9125-EBD3-A7A6FFFF75E4">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:40:37 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Prostor" id="88138914-F578-795F-A743-AE10D675933C">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:49:19 UTC</createdTime>
+<generatorID>7B0AA8DC-7D8F-1F05-072E-7CCBB4E6E126</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>970E187B-7662-D896-9A32-79C10B9DC876</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Zivotinja" id="41A2C370-524F-7EAE-FE9F-2759B50CA874">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:51:31 UTC</createdTime>
+<generatorID>F8396EF6-85DC-CC12-70BF-BE6A1666965F</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>CF6AFA8B-8F31-B630-B029-597A8A12697C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73706902-DFDF-B02C-3147-3701B13633EB" name="BORAVISTE PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:40:22 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>808318C5-DDB6-DA8D-5551-401E4A09C28E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

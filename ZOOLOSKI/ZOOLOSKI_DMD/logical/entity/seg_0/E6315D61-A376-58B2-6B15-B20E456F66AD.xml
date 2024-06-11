@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6315D61-A376-58B2-6B15-B20E456F66AD" name="ORGANIZACIJA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:34:01 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Organizacija" id="D4910E4B-2629-03D5-6A83-DDCD2A8F2256">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:34:13 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Prostor" id="23442C99-A378-FF4A-3D4E-6FD0DA2EE091">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:48:38 UTC</createdTime>
+<generatorID>18267C8D-6645-6525-A59C-EB9F234BA155</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>970E187B-7662-D896-9A32-79C10B9DC876</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Termin" id="75FA95C6-12AA-D27F-6F4D-3E39C6CA3D18">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:48:55 UTC</createdTime>
+<generatorID>579D6E3C-9FF6-D6B0-4BEC-EFD1AE126817</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>74EB6DDB-6F52-3113-9790-44488EE7AF6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Event" id="D9F7BC7C-F7F3-3DB2-2F8E-1698AD8CCCFD">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:49:07 UTC</createdTime>
+<generatorID>13145E9A-1284-460C-96E3-F22EFD6F4161</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>94A2BBCB-26F5-2786-C058-9669DBA335BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="727C421C-A541-CA00-6DDA-1D6AA4AD4EDB" name="ORGANIZACIJA PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:34:35 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4910E4B-2629-03D5-6A83-DDCD2A8F2256</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

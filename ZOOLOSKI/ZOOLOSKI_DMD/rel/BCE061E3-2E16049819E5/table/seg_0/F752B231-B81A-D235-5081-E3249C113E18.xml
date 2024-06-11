@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F752B231-B81A-D235-5081-E3249C113E18" name="PODVRSTA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>7DC9345D-F73B-12BB-C310-8680F86A2D60</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Podvrsta" id="DDE84AFE-EF9C-2A8E-5796-AF614CDB1AAC">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>38929BCA-87F0-58F8-01DA-FEE9F38C17A8</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PODVRSTA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>PODVRSTA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="0937AD0F-F3AB-2FE1-004E-A46E8C9BBF76">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>276FBBC5-BA36-EEBE-FCED-ED00AB911529</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRSTA_ID_Vrsta" id="8AF2E351-589F-BC57-6C1E-20C168EB974C">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>551CB1EA-821E-4574-8BCB-3958D78FD7AB</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C5D8579-A946-8411-1D01-819D290DC2F8" referredColumn="43798EAB-1157-E6A3-67E2-677883CB7AF6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF0B2C79-E729-3F3A-04BB-56E9DCD558C6" name="PODVRSTA_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>2AED2A62-3209-C6EB-8557-891C5D93A843</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE84AFE-EF9C-2A8E-5796-AF614CDB1AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A77BEF7-8D02-C1F0-970A-8F0991A956B5" name="PODVRSTA_VRSTA_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>4BB65AE7-EA9F-64C3-3EB2-291196D3CAC5</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AF2E351-589F-BC57-6C1E-20C168EB974C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

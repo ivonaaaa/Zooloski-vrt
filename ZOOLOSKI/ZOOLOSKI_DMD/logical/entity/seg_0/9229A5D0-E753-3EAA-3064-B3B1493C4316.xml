@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9229A5D0-E753-3EAA-3064-B3B1493C4316" name="KARTA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:35:41 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Karta" id="161C6336-42AE-6E8F-DC22-74210BE0A511">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:35:47 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sifra" id="414AFE65-2730-6B64-B3E7-B0BCDD8A3A32">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:36:00 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cijena" id="B5C37A84-D31F-8108-9554-5A6A3747B236">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:36:20 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Zaposlenik" id="1DCFD60B-EB70-D828-B245-E8121F4B65A1">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:47:25 UTC</createdTime>
+<generatorID>52C737B1-A382-7C8D-5463-3515663756BF</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>D72534F3-55EC-1245-0E1E-B13C0AC8A1AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Vrsta_Karte" id="877B104F-98E6-5698-E868-6C630BD405D0">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:47:56 UTC</createdTime>
+<generatorID>985DC466-AF2D-412D-A983-A88E47CC7C3D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<referedAttribute>6FE5FF6C-D7D8-69F3-076D-434BD2D119FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA35653D-6517-9B37-4C17-7E01E739B377" name="KARTA PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:35:59 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>161C6336-42AE-6E8F-DC22-74210BE0A511</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C2953FF1-7042-DF0B-8E3C-89940327B729" name="Sifra">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:36:53 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<newElementsIDs>414AFE65-2730-6B64-B3E7-B0BCDD8A3A32</newElementsIDs>
+<usedAttributes>
+<attributeRef>414AFE65-2730-6B64-B3E7-B0BCDD8A3A32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

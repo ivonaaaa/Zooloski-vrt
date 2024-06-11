@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ODJEL_PROSTOR" directorySegmentName="seg_0" id="AAEB334E-917C-AB29-BCF0-FCCCE6813FC7">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:48:26 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>F0FCF1DC-7608-4207-4725-119F9887512F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>385D4ECC-5AA5-6300-6EE7-C0983A8BF1B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3DBEFD83-CCBE-DF0E-0EEA-CE457674977D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

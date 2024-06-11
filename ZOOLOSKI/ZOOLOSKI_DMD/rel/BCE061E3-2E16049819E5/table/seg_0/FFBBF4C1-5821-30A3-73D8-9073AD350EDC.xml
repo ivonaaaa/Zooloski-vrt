@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFBBF4C1-5821-30A3-73D8-9073AD350EDC" name="PROSTOR">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>3DBEFD83-CCBE-DF0E-0EEA-CE457674977D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Prostor" id="CC327766-4390-4122-2F60-17E81F72547C">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>970E187B-7662-D896-9A32-79C10B9DC876</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PROSTOR_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>PROSTOR_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Oznaka" id="92BD8AA2-E131-44CC-0191-4E828D7C0D99">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>D14A08CA-26D2-BFF4-B3EB-52FB608E647D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODJEL_ID_Odjel" id="DBCA1CED-D0E5-4D76-897A-3A5235694070">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>743EA0E5-F4E5-01A2-8399-AA8D78CBE357</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="821E93C8-DED1-F4F3-4C41-0A3A95AE1B36" referredColumn="34C7826B-B057-1A05-1023-A4F24F5A818D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD799D21-63CE-C47B-36B9-826D61B3CD85" name="PROSTOR_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>DA2B46DD-CE6C-1235-522A-C4D9DF20CC8C</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC327766-4390-4122-2F60-17E81F72547C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="891B8D60-A7D1-FE09-362B-60623A0849D0" name="PROSTOR_ODJEL_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>AAEB334E-917C-AB29-BCF0-FCCCE6813FC7</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBCA1CED-D0E5-4D76-897A-3A5235694070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

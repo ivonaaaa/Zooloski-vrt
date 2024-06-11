@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4660ADF5-BC1E-4ED6-BA24-1BDDA7632C08" name="ODJEL">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>385D4ECC-5AA5-6300-6EE7-C0983A8BF1B0</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Odjel" id="34C7826B-B057-1A05-1023-A4F24F5A818D">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>681679D5-AB1D-1F48-AA45-B600D382C390</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ODJEL_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ODJEL_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Oznaka" id="8156F6D3-9634-3C64-4E3F-F1208B2474FA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>D9F62BBA-0225-56E3-7A5D-CF82A2ADE0B9</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOOLOSKI_ID_Zooloski" id="D73A70C5-50C2-AE53-DA63-43D2F7B237A8">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>5BA989A5-3356-1C9D-AEB5-98FC0DB4A485</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EE60E00-14D5-82A1-A615-8B8A7711294E" referredColumn="DF38D5C2-570B-EAAE-C011-FBCCE882FDDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B09B121B-F5DA-71E1-83F6-529B3540ACE3" name="ODJEL_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>F0FCF1DC-7608-4207-4725-119F9887512F</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34C7826B-B057-1A05-1023-A4F24F5A818D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EC9375F-B3E6-7AED-2602-8C93263A3E43" name="ODJEL_ZOOLOSKI_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>9F0A92E3-ABE7-3A66-FDB3-456F9F85F3D4</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D73A70C5-50C2-AE53-DA63-43D2F7B237A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

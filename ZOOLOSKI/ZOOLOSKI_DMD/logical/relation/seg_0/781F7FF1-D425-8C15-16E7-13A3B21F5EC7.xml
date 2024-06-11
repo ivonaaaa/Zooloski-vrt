@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HRANA_VRSTA_HRANE" directorySegmentName="seg_0" id="781F7FF1-D425-8C15-16E7-13A3B21F5EC7">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:53:03 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>105D2A61-63B3-5656-15F4-694EBB7D6663</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D6F2333-CBDD-4162-127E-AA4F39F473DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>622955A5-43E2-8599-0247-47763196B995</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

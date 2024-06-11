@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VRSTA_PODVRSTA" directorySegmentName="seg_0" id="4BB65AE7-EA9F-64C3-3EB2-291196D3CAC5">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:51:55 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>537EA729-19D7-CA6B-66CB-DA0B8FD24A8D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46CADB84-60A4-5A16-2C27-84266332EC09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7DC9345D-F73B-12BB-C310-8680F86A2D60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF25AB01-5FD5-FEF9-FB85-23F16BB74068" name="HRANJENJE">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>F7DC2CB1-9836-4731-8203-C6EC3F17B985</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Hranjenje" id="8FFAF1C4-5F64-29B7-BF51-FD6DE25CE646">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>A1E0A4F1-1436-DD99-9220-19BD7769145B</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>HRANJENJE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>HRANJENJE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Kolicina" id="7192C95E-B48B-44CC-98BF-6D9995257349">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>1BC62E81-8815-FE06-C6D5-D65C769E263F</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRSTA_HRANE_ID_Vrsta_Hrane" id="805C1D99-0D01-9B0C-3BB1-693996890701">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>072F5895-0C10-FD31-084D-B2C15459BBF3</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C6417A3-617A-DF56-AF70-5DEEA7ADFA84" referredColumn="C718172C-5BCE-3385-D427-91C7672E77D7"/>
+</associations>
+</Column>
+<Column name="PODVRSTA_ID_Podvrsta" id="AEA2D15B-449C-5BF3-A129-068C08DAE438">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>DF01FFBA-D299-CA69-5083-C3CE2E5B12A4</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F50D3709-E320-4F9C-D694-4B93E33B61CC" referredColumn="DDE84AFE-EF9C-2A8E-5796-AF614CDB1AAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F183A75-5A6D-DEAC-074E-368C66C6B277" name="HRANJENJE_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>08B9DA7B-F2C5-1E3F-552F-EFF81F023F3D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FFAF1C4-5F64-29B7-BF51-FD6DE25CE646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B4DCFE6-1658-DA12-2B0C-62B7510266B6" name="HRANJENJE_PODVRSTA_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>A1CA61C6-BCC5-B978-F654-F4A4D4A65D09</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEA2D15B-449C-5BF3-A129-068C08DAE438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDCDA27E-9879-989C-A3E6-1EF74EBCD57A" name="HRANJENJE_VRSTA_HRANE_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>020B2B1F-05D0-48D1-1699-EE366DD38830</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805C1D99-0D01-9B0C-3BB1-693996890701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

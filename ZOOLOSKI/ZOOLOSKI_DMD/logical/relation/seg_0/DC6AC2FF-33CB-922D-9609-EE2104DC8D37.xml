@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZAPOSLENIK_POSAO" directorySegmentName="seg_0" id="DC6AC2FF-33CB-922D-9609-EE2104DC8D37">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:47:08 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>3B00CA3A-F696-CED3-6373-0A778C76A1A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD5E2705-4EA6-39DB-4C1A-10724BEFBE48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>468C4628-F53B-A094-D3A2-A1441CA2CE80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
