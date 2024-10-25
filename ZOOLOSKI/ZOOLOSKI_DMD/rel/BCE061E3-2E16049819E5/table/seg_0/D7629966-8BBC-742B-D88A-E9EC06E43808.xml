@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7629966-8BBC-742B-D88A-E9EC06E43808" name="KARTA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>9229A5D0-E753-3EAA-3064-B3B1493C4316</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Karta" id="0F3B4E2A-1E34-EB9E-10FC-E2FF832FA294">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>161C6336-42AE-6E8F-DC22-74210BE0A511</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KARTA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KARTA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Sifra" id="DF61FADA-DB54-C5B7-C6FB-6367FDC3E0DB">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>414AFE65-2730-6B64-B3E7-B0BCDD8A3A32</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena" id="C99A9037-C3A1-1132-278B-B64CC9E05549">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>B5C37A84-D31F-8108-9554-5A6A3747B236</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAPOSLENIK_ID_Zaposlenik" id="C299CC44-7965-5950-56D4-19A201679CCD">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>1DCFD60B-EB70-D828-B245-E8121F4B65A1</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="557B5398-EA8F-0406-67E5-A81860980E3C" referredColumn="FCA35522-F5C2-9C55-1CEF-635A5D9DA134"/>
+</associations>
+</Column>
+<Column name="VRSTA_KARTE_ID_Vrsta_Karte" id="7A708B2F-92C4-11D7-62BF-AC2F2115895F">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>877B104F-98E6-5698-E868-6C630BD405D0</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="068C30BA-EB78-BDB7-68E7-BA75CB2D093F" referredColumn="E73C8118-6741-DAD3-FF29-5669F5DB3A3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17BDAFAB-08C3-3C29-3BB7-117F706EB193" name="KARTA_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>FA35653D-6517-9B37-4C17-7E01E739B377</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3B4E2A-1E34-EB9E-10FC-E2FF832FA294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="323F0263-0851-6DA2-EF60-48E460A93F5E" name="KARTA_Sifra_UN">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>C2953FF1-7042-DF0B-8E3C-89940327B729</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF61FADA-DB54-C5B7-C6FB-6367FDC3E0DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B3594DD-A80A-D72A-4B3E-48943052D1B8" name="KARTA_VRSTA_KARTE_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>985DC466-AF2D-412D-A983-A88E47CC7C3D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A708B2F-92C4-11D7-62BF-AC2F2115895F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9223EE7C-8054-32EC-243A-08F6A5644301" name="KARTA_ZAPOSLENIK_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>52C737B1-A382-7C8D-5463-3515663756BF</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C299CC44-7965-5950-56D4-19A201679CCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

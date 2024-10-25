@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBAD5B00-D6A1-EE25-01A0-1049AC7D3C75" name="POSAO">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>468C4628-F53B-A094-D3A2-A1441CA2CE80</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Posao" id="6F8419BE-3FFB-75D0-3728-4BE59F8149D5">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>FCD3FFBF-824F-0E58-1A8E-18DEAADD7F95</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POSAO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>POSAO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Datum_Od" id="DA6243F1-1F0A-F510-DD2A-B8316F511F6C">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>9A07F75E-BC93-02AE-A040-6B7ACC70BD6E</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Do" id="316C0734-A641-BDE6-9EB7-BD1C2430AD91">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>5AAEE5B0-BB8E-208E-CF27-BC8EBC0B2455</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOOLOSKI_ID_Zooloski" id="5BE0F850-26C2-115C-5E3F-5DC637C385D4">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>69B0AC3B-DD29-315C-E1DA-8DAAFC0EE69C</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41C347E6-D8B3-9AA6-55AA-B3B5E92E336C" referredColumn="DF38D5C2-570B-EAAE-C011-FBCCE882FDDA"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENIK_ID_Zaposlenik" id="6B09C2C3-49D9-C531-68EE-D5CF0EA0710A">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>6E040E17-3FAB-26BD-05D6-8C7BFEF5A9C1</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF717E13-1D67-4BC4-F344-4DC8063135F2" referredColumn="FCA35522-F5C2-9C55-1CEF-635A5D9DA134"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C70CB964-81BF-A0BA-898F-FCEBA003E8A5" name="POSAO_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>3BAB18E3-3829-2DD5-DBD4-9909D1EA0435</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F8419BE-3FFB-75D0-3728-4BE59F8149D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="344B0AE2-459F-8DC6-3604-E13FA8FCF14B" name="POSAO_ZAPOSLENIK_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>DC6AC2FF-33CB-922D-9609-EE2104DC8D37</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B09C2C3-49D9-C531-68EE-D5CF0EA0710A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F5859D4-DD2F-BC92-C41F-4FD0955B8B60" name="POSAO_ZOOLOSKI_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>9C730B7D-251E-A41B-B2B5-7064929622F7</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BE0F850-26C2-115C-5E3F-5DC637C385D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

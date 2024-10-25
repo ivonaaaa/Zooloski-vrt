@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A47620-F349-466B-29FE-BB1A477188CA" name="ZOOLOSKI">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>2C96E147-11A9-100D-B967-B70CD4E08768</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zooloski" id="DF38D5C2-570B-EAAE-C011-FBCCE882FDDA">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>9A0FAFA3-2ECE-0DEB-96E4-2AE38560C387</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZOOLOSKI_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZOOLOSKI_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="36AF02EE-54B6-2F33-4E27-6A37BC1C059B">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>79090032-2D93-06E4-FECB-8ACE03B3D3E2</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MJESTO_ID_Mjesto" id="803FFB8B-8F8E-4090-9D36-35325090DC50">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>4CA38A14-2E84-BDAD-F24A-31646939B481</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1016C701-10EB-2AB9-6208-6571ABC68D70" referredColumn="677EEB4C-5262-A1BC-E0F9-B07E14A65F06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBC4DA6B-025D-2981-8271-3E2AF49C8997" name="ZOOLOSKI_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>42058AC2-3C17-956A-BFB5-9E2AE68EB4AC</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF38D5C2-570B-EAAE-C011-FBCCE882FDDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DCA66E9-CAA4-5069-38E4-0EA80F8AD3BD" name="ZOOLOSKI_MJESTO_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>175EA797-8C15-9706-7D9C-8BABBADF4987</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803FFB8B-8F8E-4090-9D36-35325090DC50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

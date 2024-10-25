@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="557B5398-EA8F-0406-67E5-A81860980E3C" containerWithKeyObject="D7629966-8BBC-742B-D88A-E9EC06E43808" localFKIndex="9223EE7C-8054-32EC-243A-08F6A5644301" name="KARTA_ZAPOSLENIK_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>52C737B1-A382-7C8D-5463-3515663756BF</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C46B415A-EFFA-3380-0073-EB47DA33857B</referredTableID>
+<keyObject>3D94C18F-1910-24E2-65D0-F868D1A0E7D3</keyObject>
+<referredKeyID>3D94C18F-1910-24E2-65D0-F868D1A0E7D3</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="068C30BA-EB78-BDB7-68E7-BA75CB2D093F" containerWithKeyObject="D7629966-8BBC-742B-D88A-E9EC06E43808" localFKIndex="5B3594DD-A80A-D72A-4B3E-48943052D1B8" name="KARTA_VRSTA_KARTE_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>985DC466-AF2D-412D-A983-A88E47CC7C3D</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D7C50A4-AD49-A241-7160-0F6B9D7C2AA6</referredTableID>
+<keyObject>EA3FF789-C3B1-BE32-0AA9-65F34B05B234</keyObject>
+<referredKeyID>EA3FF789-C3B1-BE32-0AA9-65F34B05B234</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

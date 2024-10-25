@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2102269B-7508-F75B-E85F-5A0B3155C1B9" name="BORAVISTE">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>14BF6B8E-7EE0-0CC0-0C4B-6B19A9D21A44</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Boraviste" id="9AA5BDFA-2B8F-F09A-6443-362100836740">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>808318C5-DDB6-DA8D-5551-401E4A09C28E</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>BORAVISTE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>BORAVISTE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Datum_Od" id="D42093BF-120A-6C4F-CEF1-44AE5C2E75B7">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>3DC1856F-5775-4300-5059-5FFBDE126DC9</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Do" id="EA71F2AD-26C0-0091-F92C-0B13578BCFD0">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>2077979F-07C2-9125-EBD3-A7A6FFFF75E4</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROSTOR_ID_Prostor" id="F9E09F89-6AEC-8266-4EF0-CC43EFC27BD6">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>88138914-F578-795F-A743-AE10D675933C</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FF15E8B-DD2B-6442-5427-C0BF739AF49F" referredColumn="CC327766-4390-4122-2F60-17E81F72547C"/>
+</associations>
+</Column>
+<Column name="ZIVOTINJA_ID_Zivotinja" id="7E77641D-A304-8F78-3F9F-AC8C69DBA0F2">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>41A2C370-524F-7EAE-FE9F-2759B50CA874</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AE9389D-06AF-183E-C98E-A653CC63E7AC" referredColumn="C50C3F96-3A98-BF9F-B513-90F7530CB073"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51CBBE40-62FA-F017-5C26-F58317BE80EA" name="BORAVISTE_PK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>73706902-DFDF-B02C-3147-3701B13633EB</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AA5BDFA-2B8F-F09A-6443-362100836740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED49522-239C-9ECA-AB54-C1FE93C871B0" name="BORAVISTE_PROSTOR_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>7B0AA8DC-7D8F-1F05-072E-7CCBB4E6E126</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9E09F89-6AEC-8266-4EF0-CC43EFC27BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF433D3B-482C-6A9A-F617-02D80B21FA8E" name="BORAVISTE_ZIVOTINJA_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>F8396EF6-85DC-CC12-70BF-BE6A1666965F</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E77641D-A304-8F78-3F9F-AC8C69DBA0F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

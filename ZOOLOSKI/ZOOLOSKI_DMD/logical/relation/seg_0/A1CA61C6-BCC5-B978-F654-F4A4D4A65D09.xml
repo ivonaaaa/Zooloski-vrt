@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PODVRSTA_HRANJENJE" directorySegmentName="seg_0" id="A1CA61C6-BCC5-B978-F654-F4A4D4A65D09">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:53:28 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>2AED2A62-3209-C6EB-8557-891C5D93A843</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DC9345D-F73B-12BB-C310-8680F86A2D60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7DC2CB1-9836-4731-8203-C6EC3F17B985</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

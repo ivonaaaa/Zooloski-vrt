@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VRSTA_KARTE_KARTA" directorySegmentName="seg_0" id="985DC466-AF2D-412D-A983-A88E47CC7C3D">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:47:56 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>427C1A46-1E03-7218-11BE-AFCED0257B03</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73092767-7734-354D-A76D-9B15BB18529D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9229A5D0-E753-3EAA-3064-B3B1493C4316</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

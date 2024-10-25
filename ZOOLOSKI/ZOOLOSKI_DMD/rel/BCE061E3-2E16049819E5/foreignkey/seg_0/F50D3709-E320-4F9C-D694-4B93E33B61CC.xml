@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F50D3709-E320-4F9C-D694-4B93E33B61CC" containerWithKeyObject="EF25AB01-5FD5-FEF9-FB85-23F16BB74068" localFKIndex="8B4DCFE6-1658-DA12-2B0C-62B7510266B6" name="HRANJENJE_PODVRSTA_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>A1CA61C6-BCC5-B978-F654-F4A4D4A65D09</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F752B231-B81A-D235-5081-E3249C113E18</referredTableID>
+<keyObject>CF0B2C79-E729-3F3A-04BB-56E9DCD558C6</keyObject>
+<referredKeyID>CF0B2C79-E729-3F3A-04BB-56E9DCD558C6</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

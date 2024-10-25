@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C94F89AD-FA6F-A4C8-FDEC-2BEE4CF97E44" containerWithKeyObject="28C363AA-389D-BD1D-1592-A6E57EFB2696" localFKIndex="0927A3D8-811C-DD5A-ABF8-D707DCD9C21A" name="ORGANIZACIJA_EVENT_FK">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:59:57 UTC</createdTime>
+<generatorID>13145E9A-1284-460C-96E3-F22EFD6F4161</generatorID>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D31C7EAE-6E3D-8F86-D648-60C64483928C</referredTableID>
+<keyObject>C3AC96D8-A363-A391-24D3-08F079DBC719</keyObject>
+<referredKeyID>C3AC96D8-A363-A391-24D3-08F079DBC719</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

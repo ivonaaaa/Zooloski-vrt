@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZIVOTINJA_BORAVISTE" directorySegmentName="seg_0" id="F8396EF6-85DC-CC12-70BF-BE6A1666965F">
+<createdBy>ivona</createdBy>
+<createdTime>2022-04-02 11:51:31 UTC</createdTime>
+<ownerDesignName>ZOOLOSKI_DMD</ownerDesignName>
+<engineerTo>
+<item key="BCE061E3-94F7-E98D-29AD-2E16049819E5" value="true"/>
+</engineerTo>
+<sourcePk>11E5D01B-5D37-30B8-8FF7-517CCE1663EE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D642D627-AA3F-1FD1-9147-F83D56A5FC5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14BF6B8E-7EE0-0CC0-0C4B-6B19A9D21A44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
